@@ -1,0 +1,51 @@
+:root {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-color: hsl(185, 41%, 84%);
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+h5,
+h4 {
+  margin: 0;
+  margin-bottom: 5px;
+}
+h6 {
+  margin: 0;
+}
+input {
+  background-color: hsl(185, 41%, 84%);
+  border: none;
+}
+input:hover {
+  border: solid 2px hsl(172, 67%, 45%);
+}
+.container {
+  font-family: "space mono";
+  max-width: 750px;
+  /* margin: 0 auto; */
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: hsl(0, 0%, 100%);
+  padding: 30px 0px;
+  border-radius: 10px;
+}
+
+.top__ttl {
+  text-align: center;
+  margin: 0 0 50px 0;
+  color: hsl(183, 100%, 15%);
+}

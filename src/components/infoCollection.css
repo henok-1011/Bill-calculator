@@ -1,0 +1,62 @@
+button {
+  cursor: pointer;
+}
+.input {
+  width: 100%;
+}
+.collector__container {
+  width: 40%;
+  margin-right: 40px;
+  /* border: solid 1px; */
+  color: hsl(186, 14%, 43%);
+}
+
+.input input {
+  /* padding-left:30px; */
+  background-image: url("../images/icon-dollar.svg");
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: 10px 1rem;
+  width: 100%;
+  border-radius: 4px;
+  height: 25px;
+}
+
+.bill {
+  margin-bottom: 30px;
+}
+
+.tip__selector {
+  margin-bottom: 30px;
+}
+
+.tip__button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tip__button button {
+  padding: 10px 30px;
+  margin-bottom: 10px;
+  background-color: hsl(183, 100%, 15%);
+  border: none;
+  border-radius: 4px;
+  color: hsl(189, 41%, 97%);
+  font-family: "Space Mono";
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.tip__button input {
+  width: 88px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+@media (max-width: 540px) {
+  .collector__container {
+    width: 85%;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,38 @@
+h1 {
+  font-size: 30px;
+}
+.result__container {
+  width: 40%;
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.calculation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.reset__button {
+  width: 100%;
+  color: hsl(183, 100%, 15%);
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 5px 0;
+  background-color: hsl(185, 41%, 84%);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media (max-width: 540px) {
+  .result__container {
+    width: 85%;
+    margin: 0 auto;
+  }
+}
